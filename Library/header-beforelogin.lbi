@@ -1,0 +1,59 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<header class="header">
+  <div data-role="sticky">
+    <div class="advance-search">
+      <div class="search-action">
+        <div class="container">
+          <div class="input-group input-group-lg ">
+            <div class="relative input-group-lg">
+              <input type="text" class="form-control" placeholder="Batman">
+              <a class="clear-input">Clear</a> </div>
+            <div class="input-group-btn dropdown">
+              <button type="button" class="btn btn-default showText dropdown-toggle input-small" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Costumes <span class="caret"></span> </button>
+              <ul class="dropdown-menu dropdown-menu-right dropdown-slected">
+                <li><a>Costumes</a></li>
+                <li><a>Gallery</a></li>
+                <li><a>What &acute;s New</a></li>
+                <li><a>Groups</a></li>
+                <li><a>Users</a></li>
+              </ul>
+              <button type="button" class="btn btn-orange hidden-xs" onclick="location.href='../html/search-costumes.html'">SEARCH</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header"> <a class="navbar-brand" href="../index.html"><img alt="Brand" src="../assets/img/logo.svg" class="svg"></a> </div>
+        <div class="navbar-user" data-toggle="userDropdown">
+          <button type="button" class="navbar-toggle visible-xs"><i class="mdi md-20 mdi-dots-vertical"></i></button>
+          <a data-toggle="advanceSearch" class="search-icon"><i class="mdi md-24 mdi-magnify"></i></a>
+          <ul class="nav navbar-nav user-nav dropdownlogin">
+            <li><a data-target="#loginModal" data-toggle="modal"><i class="md-18 mdi mdi-import"></i><span>Login</span></a></li>
+            <li><a href="../signup.html"><i class="md-18 mdi mdi-plus-circle"></i><span>Join</span></a></li>
+          </ul>
+        </div>
+        <div class="navbar-link">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../whatsNew.html">What’s New</a></li>
+              <li><a href="../activity-stream.html">Discussions</a></li>
+              <li><a  href="../costumes.html">Costumes</a></li>
+              <li><a href="../events.html">Events</a></li>
+              <li class="dropdown sub-navbar"><a class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
+               <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="../art-gallery.html">Art Gallery</a></li>
+                <li><a href="../novel.html">Graphic Novel</a></li>
+                <li><a href="../gallery.html">Media</a></li>                
+               </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.navbar-collapse --> 
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

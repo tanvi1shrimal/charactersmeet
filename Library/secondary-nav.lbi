@@ -1,0 +1,30 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="secondary-nav">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+              <aside class="tabs-menus pulled-nav" id="secondaryNav">
+                 <div class="tab-dropdowns" > <a> <i class="mdi mdi-menu-down"></i> <span>&nbsp;</span> </a> </div>
+                 <ul class="nav navbar-nav small-screen-tabs hidden-xs">
+                    <li><a href="../user-profile.html" data-connect="secondaryNav">Profile</a></li>
+                    <li><a href="../activity-stream.html" data-connect="secondaryNav">Wall</a></li>
+                    <li><a href="../profile-costumes.html" data-connect="secondaryNav">Cosplay (4)</a></li>     
+                    <li><a href="../galleries.html" data-connect="secondaryNav">Media (7)</a></li>  
+                    <li><a href="../groups/groups.html" data-connect="secondaryNav">Groups (10)</a></li>                                       
+                    <li><a href="../my-novels.html" data-connect="secondaryNav">Graphic Novels (2)</a></li> 
+                    <li><a href="../my-videos.html" data-connect="secondaryNav">Videos (2)</a></li>                                         
+                    <li class="dropdown more-link">
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                          More<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                          <li><a href="../my-arts.html" data-connect="secondaryNav">Articles (0)</a></li> 
+                   		  <li><a href="../article.html" data-connect="secondaryNav">Art Gallery (2)</a></li>	                      
+                        </ul>
+                    </li>                    
+                 </ul>
+              </aside>
+          </div>
+      </div>
+  </div>
+</div>

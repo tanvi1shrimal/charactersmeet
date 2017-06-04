@@ -1,0 +1,1 @@
+This folder keeps all the common items such as header/footer

@@ -1,0 +1,436 @@
+<!doctype html>
+<html class="no-js" lang="">
+   <head>
+      <meta charset="utf-8">
+      <title>:: Characters Meet ::</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <link href="favicon.ico" rel="icon" type="image/x-icon" />
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/plugins.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+   </head>
+   <body>
+      <div class="ads hidden-xs">
+         <div class="container"> 
+            <a><img src="assets/img/ads.jpg" alt=""></a>
+         </div>
+      </div><!-- #BeginLibraryItem "/Library/header-beforelogin.lbi" -->
+<header class="header">
+  <div data-role="sticky">
+    <div class="advance-search">
+      <div class="search-action">
+        <div class="container">
+          <div class="input-group input-group-lg ">
+            <div class="relative input-group-lg">
+              <input type="text" class="form-control" placeholder="Batman">
+              <a class="clear-input">Clear</a> </div>
+            <div class="input-group-btn dropdown">
+              <button type="button" class="btn btn-default showText dropdown-toggle input-small" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Costumes <span class="caret"></span> </button>
+              <ul class="dropdown-menu dropdown-menu-right dropdown-slected">
+                <li><a>Costumes</a></li>
+                <li><a>Gallery</a></li>
+                <li><a>What &acute;s New</a></li>
+                <li><a>Groups</a></li>
+                <li><a>Users</a></li>
+              </ul>
+              <button type="button" class="btn btn-orange hidden-xs" onclick="location.href='../html/search-costumes.html'">SEARCH</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header"> <a class="navbar-brand" href="index.html"><img alt="Brand" src="assets/img/logo.svg" class="svg"></a> </div>
+        <div class="navbar-user" data-toggle="userDropdown">
+          <button type="button" class="navbar-toggle visible-xs"><i class="mdi md-20 mdi-dots-vertical"></i></button>
+          <a data-toggle="advanceSearch" class="search-icon"><i class="mdi md-24 mdi-magnify"></i></a>
+          <ul class="nav navbar-nav user-nav dropdownlogin">
+            <li><a data-target="#loginModal" data-toggle="modal"><i class="md-18 mdi mdi-import"></i><span>Login</span></a></li>
+            <li><a href="signup.html"><i class="md-18 mdi mdi-plus-circle"></i><span>Join</span></a></li>
+          </ul>
+        </div>
+        <div class="navbar-link">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="whatsNew.html">What’s New</a></li>
+              <li><a href="activity-stream.html">Discussions</a></li>
+              <li><a  href="costumes.html">Costumes</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li class="dropdown sub-navbar"><a class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
+               <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="art-gallery.html">Art Gallery</a></li>
+                <li><a href="novel.html">Graphic Novel</a></li>
+                <li><a href="gallery.html">Media</a></li>                
+               </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.navbar-collapse --> 
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- #EndLibraryItem --><div class="container">
+  <div class="alert alert-success alert-dismissible">
+     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+     <i class="mdi mdi-close md-20" aria-hidden="true"></i>
+     </button>
+     <strong>Well done!</strong> You successfully read this important.
+  </div> 
+</div>
+<section class="main-section" data-height="fullheight">
+  <div class="page-content main-padd">
+            <div class="container">
+              <div class="form">
+                <div class="form-body">
+                 <h2 class="form-section">Sign Up</h2>
+                 <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                          <div class="row">
+                             <div class="col-sm-6">
+                                <div class="form-group has-error">
+                                   <label class="control-label">FIRST NAME <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="text" class="form-control" id="fname" placeholder="First Name">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Your First Name.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">LAST NAME <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Your Last Name.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">CHARACTER NAME <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="text" class="form-control" id="cname" placeholder="Character Name">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Your Character Name.</div>
+                                      </div>
+                                   </div>
+                                   <span class="help-block">Everyone will refer you with this name</span>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">DATE OF BIRTH <span class="mandatory">*</span></label>
+                                   <div class="input-icon right">
+                                      <label class="mdi mdi-calendar-text" for="calendar2"></label>
+                                      <input type="text" class="form-control datepick" id="calendar2" placeholder="MM DD YYYY">
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">I WOULD LIKE TO REGISTER AS <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <select class="form-control chosen-select">
+                                         <option selected>Select</option>
+                                         <option>Options</option>
+                                      </select>
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Select Register.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">GENDER <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <select class="form-control chosen-select">
+                                         <option selected>Male</option>
+                                         <option>Female</option>
+                                         <option>Transgender</option>
+                                      </select>
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Select Gender.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-12">
+                                <div class="form-group">
+                                   <label class="control-label">EMAIL <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="text" class="form-control" id="email" placeholder="email">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Your Email Id.</div>
+                                      </div>
+                                   </div>
+                                   <span class="help-block">We will send notifications on this email</span>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">PASSWORD <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="password" class="form-control" id="password" placeholder="">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Password.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                   <label class="control-label">CONFIRM PASSWORD <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <input type="password" class="form-control" id="confmpassword" placeholder="">
+                                      <div class="errorTip bottom-right">
+                                         <div class="errorTip-arrow"></div>
+                                         <div class="errorTip-inner">Please Enter Confirm Password.</div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-12">
+                                <div class="form-group has-error">
+                                   <label class="control-label">PROVE YOU’RE NOT A ROBOT <span class="mandatory">*</span></label>
+                                   <div class="form-field">
+                                      <div class="input-group">
+                                         <span class="input-group-addon ">
+                                         exposure
+                                         </span>
+                                         <input type="text" class="form-control" placeholder="Enter these letters">
+                                         <a class="input-group-addon">
+                                          <i class="md-light mdi mdi-reload md-20"></i>
+                                         </a>
+                                         <div class="errorTip bottom-right">
+                                            <div class="errorTip-arrow"></div>
+                                            <div class="errorTip-inner">Please Enter Capcha.</div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="row secondary-text">
+                             <aside class="col-sm-6">
+                                <p class="xs-center">I Agree to the <a href="privacypolicy.html">Terms &amp; Conditions</a></p>
+                             </aside>
+                             <aside class="col-sm-6">                                
+                                <p class="text-right xs-center">Already a Member ? <a data-target="#loginModal" data-toggle="modal">Login</a></p>
+                             </aside>
+                          </div>
+                          <div class="row form-actions right">
+                             <aside class="col-sm-6 col-sm-offset-6">
+                                <a class="btn btn-default">CANCEL</a>
+                                <a class="btn btn-orange">SIGN UP</a>
+                             </aside>
+                          </div>
+                    </div>
+                    <div class="col-md-4 hidden-xs hidden-sm">
+                       <aside class="ads">
+                          <a><img src="assets/img/ads-right.jpg" alt=""></a>
+                       </aside>
+                    </div>
+                 </div>
+               </div>
+              </div> 
+            </div>
+         </div>
+      </section>
+      <div class="ads">
+         <div class="container"> 
+            <a><img src="assets/img/ads.jpg" alt=""></a>
+         </div>
+      </div><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <ul class="nav nav-pills">
+          <li><a href="about-us.html"> About Us </a></li>
+          <li><a href="privacypolicy.html"> Privacy Policy </a></li>
+          <li><a href="contact.html"> Contact Us </a></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <ul class="social-icons">
+          <li><a class="md-light md-18 mdi mdi-facebook"></a></li>
+          <li><a class="md-light md-18 mdi mdi-twitter"></a></li>
+          <li><a class="md-light md-18 mdi mdi-google-plus"></a></li>
+          <li><a class="md-light md-18 mdi mdi-linkedin"></a></li>
+          <li><a class="md-light md-18 mdi mdi-pinterest"></a></li>
+          <li><a class="md-light md-18 mdi mdi-youtube-play"></a></li>
+          <li><a class="md-light md-18 mdi mdi-instagram"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7"><span class="copyright">Copyright 2015 All Rights Resrved</span></div>
+    </div>
+  </div>
+</footer>
+<!-- #EndLibraryItem --><!-- Login - Modal -->
+<div id="loginModal" class="modal fade flip-animation" data-modal="middle" role="dialog">
+   <div class="modal-dialog modal-lg">
+      <button type="button" class="close" data-dismiss="modal">
+      <i class="mdi mdi-close md-30" aria-hidden="true"></i>
+      </button>
+      <div class="modal-content clearfix">
+         <div class="modal-body pad0">
+            <div class="poster hidden-xs">
+               <div class="content">
+                  <a href="extrapages/index.html">
+                  <img alt="Brand" src="assets/img/logo.svg">
+                  </a>
+               </div>
+            </div>
+            <div class="form-body">
+            <div class="flipContainer">
+               <div id="loginForm" class="login flip-panel">
+                  <div class="form custom-alert">
+                     <h2 class="form-section">Login</h2>
+                     <div class="alert alert-danger">
+                         <a class="close-alert pull-right" data-dismiss="alert" aria-label="Close">
+                         <i class="mdi mdi-close md-20" aria-hidden="true"></i>
+                         </a>
+                         <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                      </div>
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label class="control-label">CHARACTER NAME</label>
+                              <div class="form-field">
+                                 <input type="text" class="form-control white" id="chrName">
+                                 <div class="errorTip bottom-right">
+                                    <div class="errorTip-arrow"></div>
+                                    <div class="errorTip-inner">Please Enter Character Name.</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <div class="form-group marb15 has-error">
+                              <label class="control-label">PASSWORD</label>
+                              <div class="form-field">
+                                 <input type="password" class="form-control white" id="loginpassword"> 
+                                 <div class="errorTip bottom-right">
+                                    <div class="errorTip-arrow"></div>
+                                    <div class="errorTip-inner">Please Enter Password.</div>
+                                 </div>    
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-7 col-xs-7 xs-padding-right-0">
+                           <div class="form-group has-error font-sm">
+                              <div class="checkbox">
+                                 <label>
+                                 <input type="checkbox" name="LogIn" value="LogIn" id="logIn">
+                                 Keep Me Logged In
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 col-xs-5 xs-padding-left-0">
+                           <div class="form-group text-right font-sm">
+                              <a class="link-text flipLink" data-rel="forgotForm" >Forgot Password ?</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row form-actions right">
+                        <aside class="col-sm-push-8 col-sm-4 col-xs-push-0">
+                           <a class="btn btn-orange btn-block loading"> <i class="loader"></i> Login</a>
+                        </aside>
+                        <aside class="col-sm-pull-4 col-sm-8 col-xs-pull-0 text-link secondary-text font-sm">
+                           Don’t have an account ? <a class="link-text" href="signup.html">Join</a>
+                        </aside>
+                     </div>
+                  </div>
+               </div>
+               <div id="forgotForm" class="forgot flip-panel flipHide">
+                  <div class="form">
+                     <h2 class="form-section">Forgot Password</h2>
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label class="control-label">EMAIL</label>
+                              <div class="form-field">
+                                 <input type="email" class="form-control white" id="forgotemail">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row form-actions right">
+                        <aside class="col-xs-8 col-sm-8 text-link">
+                           <a class="flipLink font-sm" data-rel="loginForm">Back</a>
+                        </aside>
+                        <aside class="col-xs-4 col-sm-4">
+                           <a class="btn btn-orange btn-block">Send</a>
+                        </aside>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+      <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+      <script src="assets/js/vendor/bootstrap.min.js"></script>
+      <script src="assets/js/chosen-min.js"></script> 
+      <script src="assets/js/material.js"></script>
+      <script src="assets/js/mCustomScrollbar.js"></script> 
+      <script src="assets/js/plugins.js"></script> 
+      <script src="assets/js/main.js"></script>
+      <script>
+         $(document).ready(function() {     
+            //Material           
+            $.material.init();
+            //DatePicker
+            $( ".datepick" ).datepicker({
+               changeMonth: true,
+               changeYear: true             
+            });
+            //Chosen
+            $(".chosen-select").chosen({
+              "disable_search": false  
+            });
+				
+				  // set up click/tap panels
+            $('.click').toggle(function(){
+              $(this).addClass('flip');
+            },function(){
+              $(this).removeClass('flip');
+            });
+         });
+      </script>
+   </body>
+</html>

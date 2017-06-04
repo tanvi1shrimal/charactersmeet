@@ -1,0 +1,1 @@
+This folder will contain all the latest HTMLs of the project
